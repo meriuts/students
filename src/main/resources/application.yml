@@ -4,4 +4,4 @@ spring:
 
 app:
   student-starter:
-    enabled: false
+    enabled: ${REPO_STARTER:false}
